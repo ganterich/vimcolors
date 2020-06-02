@@ -3,27 +3,27 @@ hi clear
 if exists("syntax_on")
     syntax reset
 endif
-  
 let g:colors_name = "roepel"
-hi Normal     cterm=NONE ctermbg=235 ctermfg=250 
-hi Statement  cterm=None ctermfg=243 guifg=#767676
-hi Type       cterm=NONE ctermfg=243 guifg=#767676
-hi Identifier cterm=NONE ctermfg=174 guifg=#D78787
-hi Constant   cterm=NONE ctermfg=109 guifg=#87AfAf
-hi Comment    cterm=NONE ctermfg=73 guifg=#5FAFAF
-hi Special    cterm=NONE ctermfg=109 guifg=#87AFAF
-hi PreProc    cterm=NONE ctermfg=133 guifg=#AF5FAF
-hi Title      cterm=NONE ctermfg=255 gui=NONE guifg=#FFFFFF
-hi Error      cterm=NONE ctermbg=52 ctermfg=218 guifg=#FFAFD7
-hi Directory  cterm=NONE ctermfg=67 guifg=#5F87AF
-hi Underlined cterm=underline ctermfg=67 gui=underline 
+
+hi! Normal     cterm=NONE        gui=NONE   ctermbg=235   ctermfg=250 
+hi! Statement  cterm=NONE        gui=NONE   ctermfg=243   guifg=#767676
+hi! Type       cterm=NONE        gui=NONE   ctermfg=243   guifg=#767676
+hi! Identifier cterm=NONE        gui=NONE   ctermfg=174   guifg=#D78787
+hi! Constant   cterm=NONE        gui=NONE   ctermfg=109   guifg=#87AfAf
+hi! Comment    cterm=NONE        gui=NONE   ctermfg=73    guifg=#5FAFAF
+hi! Special    cterm=NONE        gui=NONE   ctermfg=109   guifg=#87AFAF
+hi! PreProc    cterm=NONE        gui=NONE   ctermfg=133   guifg=#AF5FAF
+hi! Title      cterm=NONE        gui=NONE   ctermfg=255   gui=NONE guifg=#FFFFFF
+hi! Error      cterm=NONE        gui=NONE   ctermbg=52    ctermfg=218 guifg=#FFAFD7
+hi! Directory  cterm=NONE        gui=NONE   ctermfg=67    guifg=#5F87AF
+hi! Underlined cterm=underline   gui=NONE   ctermfg=67    gui=underline 
 
 "Furniture
-hi VertSplit  cterm=NONE ctermbg=235 ctermfg=0 guibg=#acb0a9 guifg=#2e3436
-hi LineNr     cterm=NONE ctermfg=241 guifg=#626262
-hi NonText    cterm=NONE ctermfg=16 guifg=#000000
-hi Visual     cterm=NONE ctermbg=238 guibg=#444444
-hi CursorLine cterm=NONE ctermbg=236 guibg=#303030
+hi VertSplit    cterm=NONE ctermbg=235 ctermfg=0 guibg=#acb0a9 guifg=#2e3436
+hi LineNr       cterm=NONE ctermfg=241 guifg=#626262
+hi NonText      cterm=NONE ctermfg=16  guifg=#000000
+hi Visual       cterm=NONE ctermbg=238 guibg=#222222
+hi CursorLine   cterm=NONE ctermbg=236 guibg=#303030
 hi CursorColumn cterm=NONE ctermbg=236 guibg=#303030 
 hi CursorLineNr cterm=NONE ctermbg=236 ctermfg=249 guibg=#303030 guifg=#B2B2B2
 hi SignColumn   cterm=NONE ctermbg=235 guibg=Normal
