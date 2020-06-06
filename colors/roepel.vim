@@ -18,6 +18,8 @@ hi! Error      cterm=NONE        gui=NONE   ctermbg=52    ctermfg=218 guifg=#FFA
 hi! Directory  cterm=NONE        gui=NONE   ctermfg=67    guifg=#5F87AF
 hi! Underlined cterm=underline   gui=NONE   ctermfg=67    gui=underline 
 
+hi! Todo       cterm=underline   gui=underline guibg=NONE  ctermfg=73    guifg=#5FAFAF
+
 "Furniture
 hi VertSplit    cterm=NONE ctermbg=235 ctermfg=0 guibg=#acb0a9 guifg=#2e3436
 hi LineNr       cterm=NONE ctermfg=241 guifg=#626262
