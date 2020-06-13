@@ -10,7 +10,8 @@ hi! Normal      gui=NONE guifg=#d1cdc5 guibg=#17191a
 hi! Statement   gui=NONE guifg=#d2626b
 "hi! Type        gui=NONE guifg=#767676
 hi! link Type Statement
-hi! Identifier  gui=NONE guifg=#D78787
+"hi! Identifier  gui=NONE guifg=#D78787
+hi! link Identifier Constant
 hi! Constant    gui=NONE guifg=#58a9ed
 hi! link String Comment
 hi! Comment     gui=NONE guifg=#b6b1a5
@@ -20,6 +21,8 @@ hi! Title       gui=NONE guifg=#FFFFFF
 hi! Error       gui=NONE guifg=#FFAFD7
 hi! Directory   gui=NONE guifg=#5F87AF
 hi! Underlined  gui=NONE gui=underline 
+
+hi! link Function Constant
 
 hi! Todo       cterm=underline   gui=underline guibg=NONE  ctermfg=73    guifg=#5FAFAF
 
