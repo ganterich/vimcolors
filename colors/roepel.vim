@@ -5,18 +5,21 @@ if exists("syntax_on")
 endif
 let g:colors_name = "roepel"
 
-hi! Normal     cterm=NONE        gui=NONE   ctermbg=235   ctermfg=250 
-hi! Statement  cterm=NONE        gui=NONE   ctermfg=243   guifg=#767676
-hi! Type       cterm=NONE        gui=NONE   ctermfg=243   guifg=#767676
-hi! Identifier cterm=NONE        gui=NONE   ctermfg=174   guifg=#D78787
-hi! Constant   cterm=NONE        gui=NONE   ctermfg=109   guifg=#87AfAf
-hi! Comment    cterm=NONE        gui=NONE   ctermfg=73    guifg=#5FAFAF
-hi! Special    cterm=NONE        gui=NONE   ctermfg=109   guifg=#87AFAF
-hi! PreProc    cterm=NONE        gui=NONE   ctermfg=133   guifg=#AF5FAF
-hi! Title      cterm=NONE        gui=NONE   ctermfg=255   gui=NONE guifg=#FFFFFF
-hi! Error      cterm=NONE        gui=NONE   ctermbg=52    ctermfg=218 guifg=#FFAFD7
-hi! Directory  cterm=NONE        gui=NONE   ctermfg=67    guifg=#5F87AF
-hi! Underlined cterm=underline   gui=NONE   ctermfg=67    gui=underline 
+hi! Default     gui=NONE guifg=#b6b1a5 guibg=#17191a
+hi! Normal      gui=NONE guifg=#d1cdc5 guibg=#17191a
+hi! Statement   gui=NONE guifg=#d2626b
+"hi! Type        gui=NONE guifg=#767676
+hi! link Type Statement
+hi! Identifier  gui=NONE guifg=#D78787
+hi! Constant    gui=NONE guifg=#58a9ed
+hi! link String Comment
+hi! Comment     gui=NONE guifg=#b6b1a5
+hi! Special     gui=NONE guifg=#87AFAF
+hi! PreProc     gui=NONE guifg=#9274c5
+hi! Title       gui=NONE guifg=#FFFFFF
+hi! Error       gui=NONE guifg=#FFAFD7
+hi! Directory   gui=NONE guifg=#5F87AF
+hi! Underlined  gui=NONE gui=underline 
 
 hi! Todo       cterm=underline   gui=underline guibg=NONE  ctermfg=73    guifg=#5FAFAF
 
