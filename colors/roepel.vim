@@ -27,10 +27,10 @@ hi! link Function Constant
 hi! Todo       cterm=underline   gui=underline guibg=NONE  ctermfg=73    guifg=#5FAFAF
 
 "Furniture
-"hi VertSplit    cterm=NONE ctermbg=235 ctermfg=0 guibg=#acb0a9 guifg=#2e3436
+hi VertSplit    cterm=NONE ctermbg=235 ctermfg=0 guibg=#acb0a9 guifg=#2e3436
 "hi LineNr       cterm=NONE ctermfg=241 guifg=#626262
 "hi NonText      cterm=NONE ctermfg=16  guifg=#000000
-"hi Visual       cterm=NONE ctermbg=238 guibg=#222222
+hi Visual       cterm=NONE ctermbg=238 guibg=#222222
 "hi CursorLine   cterm=NONE ctermbg=236 guibg=#303030
 "hi CursorColumn cterm=NONE ctermbg=236 guibg=#303030
 "hi CursorLineNr cterm=NONE ctermbg=236 ctermfg=249 guibg=#303030 guifg=#B2B2B2
