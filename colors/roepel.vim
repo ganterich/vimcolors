@@ -27,16 +27,16 @@ hi! link Function Constant
 hi! Todo       cterm=underline   gui=underline guibg=NONE  ctermfg=73    guifg=#5FAFAF
 
 "Furniture
-hi VertSplit    cterm=NONE ctermbg=235 ctermfg=0 guibg=#acb0a9 guifg=#2e3436
-hi LineNr       cterm=NONE ctermfg=241 guifg=#626262
-hi NonText      cterm=NONE ctermfg=16  guifg=#000000
-hi Visual       cterm=NONE ctermbg=238 guibg=#222222
-hi CursorLine   cterm=NONE ctermbg=236 guibg=#303030
-hi CursorColumn cterm=NONE ctermbg=236 guibg=#303030 
-hi CursorLineNr cterm=NONE ctermbg=236 ctermfg=249 guibg=#303030 guifg=#B2B2B2
-hi SignColumn   cterm=NONE ctermbg=235 guibg=Normal
-hi ColorColumn  cterm=NONE ctermbg=236
-hi ErrorMsg     cterm=NONE ctermbg=124 ctermfg=235
+"hi VertSplit    cterm=NONE ctermbg=235 ctermfg=0 guibg=#acb0a9 guifg=#2e3436
+"hi LineNr       cterm=NONE ctermfg=241 guifg=#626262
+"hi NonText      cterm=NONE ctermfg=16  guifg=#000000
+"hi Visual       cterm=NONE ctermbg=238 guibg=#222222
+"hi CursorLine   cterm=NONE ctermbg=236 guibg=#303030
+"hi CursorColumn cterm=NONE ctermbg=236 guibg=#303030
+"hi CursorLineNr cterm=NONE ctermbg=236 ctermfg=249 guibg=#303030 guifg=#B2B2B2
+"hi SignColumn   cterm=NONE ctermbg=235 guibg=Normal
+"hi ColorColumn  cterm=NONE ctermbg=236
+"hi ErrorMsg     cterm=NONE ctermbg=124 ctermfg=235
 
 hi link SpecialKey Ignore
 
@@ -85,3 +85,11 @@ hi pythonSpaceError ctermbg=234
 " NeoMake errors
 " Turn off the red (keep the underline)
 hi NeomakeErrorDefault ctermfg=None
+
+
+
+
+
+
+hi! Cursor  guifg=white guibg=#aa2222
+hi! iCursor guifg=white guibg=#22aa22
