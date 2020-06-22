@@ -5,38 +5,28 @@ if exists("syntax_on")
 endif
 let g:colors_name = "roepel"
 
-hi! Default     gui=NONE guifg=#b6b1a5 guibg=#17191a
-hi! Normal      gui=NONE guifg=#d1cdc5 guibg=#17191a
-hi! Statement   gui=NONE guifg=#d2626b
-"hi! Type        gui=NONE guifg=#767676
+hi! Normal       gui=NONE guifg=#b9aeae guibg=#191919
+hi! Statement    gui=NONE guifg=#aa9955
 hi! link Type Statement
-"hi! Identifier  gui=NONE guifg=#D78787
 hi! link Identifier Constant
-hi! Constant    gui=NONE guifg=#58a9ed
-hi! link String Comment
-hi! Comment     gui=NONE guifg=#b6b1a5
+hi! Constant    gui=NONE guifg=#729a59
+"hi! String      gui=NONE guifg=#dd9999
+hi! String      gui=NONE guifg=#496f6f
+hi! Comment     gui=NONE guifg=#775555
 hi! Special     gui=NONE guifg=#87AFAF
-hi! PreProc     gui=NONE guifg=#9274c5
+hi! PreProc     gui=NONE guifg=#a274c5
 hi! Title       gui=NONE guifg=#FFFFFF
-hi! Error       gui=NONE guifg=#FFAFD7
+hi! link Error Normal
 hi! Directory   gui=NONE guifg=#5F87AF
 hi! Underlined  gui=NONE gui=underline 
 
-hi! link Function Constant
+hi! Function guifg=#b06749
 
-hi! Todo       cterm=underline   gui=underline guibg=NONE  ctermfg=73    guifg=#5FAFAF
+hi! Todo guibg=NONE guifg=#ff4444
 
 "Furniture
 hi VertSplit    cterm=NONE ctermbg=235 ctermfg=0 guibg=#acb0a9 guifg=#2e3436
-"hi LineNr       cterm=NONE ctermfg=241 guifg=#626262
-"hi NonText      cterm=NONE ctermfg=16  guifg=#000000
 hi Visual       cterm=NONE ctermbg=238 guibg=#222222
-"hi CursorLine   cterm=NONE ctermbg=236 guibg=#303030
-"hi CursorColumn cterm=NONE ctermbg=236 guibg=#303030
-"hi CursorLineNr cterm=NONE ctermbg=236 ctermfg=249 guibg=#303030 guifg=#B2B2B2
-"hi SignColumn   cterm=NONE ctermbg=235 guibg=Normal
-"hi ColorColumn  cterm=NONE ctermbg=236
-"hi ErrorMsg     cterm=NONE ctermbg=124 ctermfg=235
 
 hi link SpecialKey Ignore
 
