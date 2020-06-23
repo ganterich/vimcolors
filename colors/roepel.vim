@@ -5,8 +5,8 @@ if exists("syntax_on")
 endif
 let g:colors_name = "roepel"
 
-hi! Normal       gui=NONE guifg=#baaeae guibg=#191919
-hi! Statement    gui=NONE guifg=#aa9955
+hi! Normal       gui=NONE guifg=#d0c0c0 guibg=#1a1919
+hi! Statement    gui=NONE guifg=#cab975
 hi! link Type Statement
 hi! link Identifier Constant
 hi! Constant    gui=NONE guifg=#729a59
@@ -20,7 +20,7 @@ hi! link Error Normal
 hi! Directory   gui=NONE guifg=#5F87AF
 hi! Underlined  gui=NONE gui=underline 
 
-hi! Function guifg=#b06749
+hi! Function guifg=#d06749
 
 hi! Todo guibg=NONE guifg=#ff4444
 
