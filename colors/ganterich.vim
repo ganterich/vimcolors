@@ -3,7 +3,7 @@ hi clear
 if exists("syntax_on")
     syntax reset
 endif
-let g:colors_name = "roepel"
+let g:colors_name = "ganterich"
 
 hi! Normal       gui=NONE guifg=#d0c0c0 guibg=#1a1919
 hi! Statement    gui=NONE guifg=#cab975
@@ -81,5 +81,5 @@ hi NeomakeErrorDefault ctermfg=None
 
 
 
-hi! Cursor  guifg=white guibg=#aa2222
-hi! iCursor guifg=white guibg=#22aa22
+hi! Cursor  guifg=white guibg=#ff5500
+hi! iCursor guifg=white guibg=#0088ff
